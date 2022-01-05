@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Product Landing Page</title>
+</head>
+<body>
+    <header id="header">
+        <img src="./src/image/logo/logo.svg" alt="linkerd" id="header-img">
+        <nav id="nav-bar">
+            <ul>
+                <li>
+                    <a href="#productos" class="nav-link hvr-underline-from-left">productos</a>
+                </li>
+                <li>
+                    <a href="#nosotros" class="nav-link hvr-underline-from-left">nosotros</a>
+                <li>
+                <li>
+                    <a href="#contacto" class="nav-link hvr-underline-from-left">contacto</a>
+                <li>
+            </ul>
+        </nav>
+    </header>
+    <h2>nuestros productos</h2>
+    <section id="productos">
+        <div class="contenedor-paracaidas">
+            <div class="prueba">
+                <img class="paracaidas" src="./src/image/image1.webp" alt="paracaidismo">
+            </div>
+            <a href="#" class="descripcion-paracaidismo hover-descripcion">Equipo básico del paracaidismo</a>
+        </div>
+        <div class="contenedor-parapente">
+            <div class="prueba">
+                <img class="parapente" src="./src/image/image2.jpg" alt="parapente">
+            </div>
+            <a href="#" class="descripcion-parapente hover-descripcion">Equipo básico del parapente</a>
+        </div>
+        <div class="contenedor-wingsuit">
+            <div class="prueba">
+                <img class="wingsuit" src="./src/image/image3.jpg" alt="wingsuit">
+            </div>
+            <a href="#" class="descripcion-wingsuit hover-descripcion">Equipo básico del wingsuit</a>
+        </div>
+    </section>
+    <section class="contenedor-video">
+        <iframe id="video" width="520" height="294" src="https://www.youtube.com/embed/I6VpZ3bnnKI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+    <section id="nosotros">
+        <h2>nosotros</h2>
+        <p>La base de nuestros valores:</p>
+        <ul>
+            <li><strong>AMISTAD:</strong> Somos un grupo que destaca el valor de la amistad y el trabajo en equipo para que al final del día puedas celebrar haber disfrutado la experiencia de volar con amigos.</li>
+            
+            <li><strong>TRANSPARENCIA:</strong> Nuestro trabajo se basa en estándares que te permiten saber de antemano cómo se va a desarrollar tu actividad para que puedas disfrutar sin sobresaltos y con la certeza que sos nuestra prioridad.</li>
+            
+            <li><strong>SEGURIDAD:</strong> Trabajamos con estándares de calidad y operación de nivel internacional, garantizando el más alto nivel de seguridad en nuestra actividad. Disponemos de un Sistema de Gestión de Seguridad Operacional y protocolos de bioseguridad para que tu única preocupación sea disfrutar al máximo.</li>
+            
+            <li><strong>DISFRUTAR LA VIDA:</strong> La vida es el bien más valioso y preciado del cual disponemos por eso nuestro trabajo tiene como valor fundamental brindarte calidad de vida, liberarte del estrés y poner a tu disposición lo necesario para que disfrutes al máximo y seas feliz con nosotros, como cada miembro de nuestro equipo disfruta de hacerte feliz.</li>
+        </ul>
+    </section>
+    <section id="contacto">
+
+    </section>
+    <h3>newsletter</h3>
+    <div class="formulario">
+        <form action="https://www.reecodecamp.com/email-submit" id="form">
+            <input name="email" type="email" id="email" placeholder="Ingrese su Email" required>
+            <input type="submit" id="submit" value="Enviar" class=" boton">
+        </form>
+    </div>
+    <!-- Testable FreeCodeCamp JS -->
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
