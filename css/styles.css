@@ -8,6 +8,7 @@
 
 html {
     min-width: 839px;
+    scroll-behavior: smooth;
 } 
 
 body {
@@ -94,12 +95,15 @@ h2 {
 }
 
 #productos {
-  margin-top: 40px;
+  padding-top: 20px;
+}
+
+.contenedor-productos {
   display: flex;
 }
 
 @media (min-width: 320px) and (max-width: 700px) {
-  #productos {
+  .contenedor-productos {
     margin-top: 30px;
     display: block;
   }
